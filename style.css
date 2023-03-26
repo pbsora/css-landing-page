@@ -21,48 +21,32 @@ ul{
   }
 
 
-.meio{
-    border: 2px solid black;
-}
 
 .quote{
 background-color: #E5E7EB;
-border: 2px solid black;
 font-size: 30px;
 padding: 35px;
 display: flex;
-align-items: center;
 flex-direction: column;
-
+gap: 0px;
 }
 
 
 .frase{
 
-    max-width: 610px;
+    max-width: 700px;
     font-family: comic sans ms, cursive;
-    border: solid red;
-
+    margin-bottom: 0px;
+    padding: 30px;
+    align-self: center;
 }
 
-h6{
-font-weight: 800;
-text-align: left;
-border: solid red 2px;
-left: 2000px;
-
-}
-
-
-.action{
-    border: 2px solid black;
-}
-
-.footer{
-    border: 2px solid red;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    text-align: center;
+.thor{
+    
+font-family: comic sans ms, cursive;
+font-size: 20px;
+font-weight: 700;
+align-self: flex-end;
 }
 
 button{
@@ -88,7 +72,7 @@ padding-bottom: 70px;
     font-size: 20px;
     font-weight: 800;
     flex-basis: 700px;
-    margin-left: 40px;
+    margin-left: 65px;
     font-family: Tahoma, sans-serif;
     margin-top: 20px;
 }
@@ -147,3 +131,49 @@ justify-content: center;
     font-weight: 800;
 }
 
+
+.action{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+width: 1000px;
+background-color: #3882F6;
+margin: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+color: white;
+border: none;
+font-family: 'Dekko';
+padding: 50px;
+font-size: 18px;
+flex-wrap: wrap;
+}
+
+.banner-titulo{
+font-size: 26px;
+
+}
+
+.banner-botao{
+border: solid white 4px;
+text-align: center;
+border-radius: 10px;
+font-size: 12px;
+margin-left: 80px;
+
+}
+
+.footer{
+    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+    font-family: comic sans ms, cursive;
+
+}
